@@ -1,1 +1,4 @@
 # TCP-AND-UDP
+
+This project is  implements Transmission control protocol(TCP) and User Datagram Protocol(UDP) between two branches of a company. The Topology consists of two branches of company( A and B). Each branch is divided into three floors(or LANs) . Two floors consists of systems for communication and a Server floor for access. The Server floor contains three servers : DNS/HTTP , Email, Data . These are Local Servers and can be accessed by the all the systems in the other two floors.  
+The communication between two branches takes place with the help of main server which is common to both the branches . The main server also consists of three servers: DNS/HTTP , Email, Data.  These servers can be accessed only by the systems present in the center floor of each branch i.e The communication between different branches of the company can take place only within these systems.
